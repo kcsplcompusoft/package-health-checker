@@ -1,6 +1,6 @@
 {
   "name": "package-health-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Check your package's health using this module",
   "main": "index.js",
   "bin": {
