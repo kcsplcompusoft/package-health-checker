@@ -101,7 +101,7 @@ const getDetails = async (data, name, version) => {
                 'downloaded_version': version.replace(/^\D+/g, ''),
                 'curr_version': i.package.version,
                 'last_published': msg,
-                'open_issues': issueData && issueData.total_count ? issueData.total_count : "",
+                'open_issues': issueData?.total_count ? issueData.total_count : "",
                 'weekly_downloads': downloadCount.data.downloads,
                 'isThreeMonthAgo': isThreeMonthAgo,
                 'quality': i.score.detail.quality,
